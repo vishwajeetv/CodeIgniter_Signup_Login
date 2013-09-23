@@ -7,7 +7,7 @@ Signup and Login Features Deployed using CodeIgnitor framework, with Strict MVC 
 To use this code, follow as instructed below.
 
 1. Download or Clone this repository. [Download Zip]
-2. Open the downloaded zip file and extract it.
+2. Open the downloaded zip file and extract it and store it in your host server root directory(like htdocs for xampp)
 
 3. In the extracted folder, go to and open CodeIgniter -> Application -> Config -> Database.php
   and do necessary configurations for your MySQL Database
