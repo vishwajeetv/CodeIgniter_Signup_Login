@@ -35,6 +35,7 @@ CREATE TABLE `your_database`.`new_table` (
 
 Features:
 1. Strict MVC architecture.
-2. Highly Object Oriented and Reusable
-3. Built using CodeIgniter 2.1.4
-4. Twitter Bootstrap 3.0 integrated.
+2. Highly Object Oriented and Reusable 
+3. Built Using CodeIgniter 2.1.4
+4. Two Tier Validations (Client Side Validations using HTML5, Server side validations using codeIgniter)
+5. Integration of Twitter Bootstrap 3.0
