@@ -32,10 +32,14 @@ CREATE TABLE `your_database`.`new_table` (
 8. In case you want to tweak the user Interface, You can go to CodeIgniter -> Assets Folder to add your own CSS / Javascript. Here you can find default css and javascript of Twitter Bootstrap as well as JQuery
 9. All the front end includes are stored in CodeIgniter -> Application -> Views -> Web -> template
 
-
-Features:
+Features
+========================
 1. Strict MVC architecture.
+
 2. Highly Object Oriented and Reusable 
+
 3. Built Using CodeIgniter 2.1.4
+
 4. Two Tier Validations (Client Side Validations using HTML5, Server side validations using codeIgniter)
+
 5. Integration of Twitter Bootstrap 3.0
