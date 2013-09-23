@@ -40,6 +40,6 @@ Features
 
 3. Built Using CodeIgniter 2.1.4
 
-4. Two Tier Validations (Client Side Validations using HTML5, Server side validations using codeIgniter)
+4. Two Tier User Input Validations (Client Side Validations using HTML5, Server side validations using codeIgniter)
 
 5. Integration of Twitter Bootstrap 3.0
