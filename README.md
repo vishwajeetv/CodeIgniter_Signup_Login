@@ -1,20 +1,17 @@
 CodeIgniter_Signup_Login
 ========================
-
 Signup and Login Features Deployed using CodeIgnitor framework, with Strict MVC implementation and highly reusable, object oriented code.
-
 Key Features
 -------------
 1. Strict <b>Model-View-Controller</b> architecture.
 2. Highly Object Oriented and Reusable 
 3. Built Using <b>CodeIgniter 2.1.4</b>
 4. Two Tier User <b>Input Validations</b> (Client Side Validations using HTML5, Server side validations using codeIgniter)
-5. Integration of <b>Twitter Bootstrap 3.0</b>
-6. <b>Secure</b>. Uses encrypted sessions. Stores password as md5 hash. Cross site scripting proof. 
+5. <b>Secure</b>. Uses encrypted sessions. Stores password as md5 hash. Cross site scripting proof. 
+6. Integration with <b>Twitter Bootstrap 3.0</b>
 
 Usage
 -------------
-
 To use this code, follow as instructed below.
 
 1. Download or Clone this repository. [Download Zip]
