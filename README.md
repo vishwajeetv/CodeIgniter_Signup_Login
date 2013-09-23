@@ -43,3 +43,5 @@ Features
 4. Two Tier User Input Validations (Client Side Validations using HTML5, Server side validations using codeIgniter)
 
 5. Integration of Twitter Bootstrap 3.0
+
+6. Secure. Uses encrypted sessions and stores password as md5 hash. 
