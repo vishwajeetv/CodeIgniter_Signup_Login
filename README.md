@@ -1,14 +1,14 @@
 CodeIgniter_Signup_Login
 ========================
-Signup and Login Features Deployed using CodeIgnitor framework, with Strict MVC implementation and highly reusable, object oriented code.
+Signup and Login Features Deployed using CodeIgniter framework, with Strict MVC implementation and highly reusable, object oriented code.
 Key Features
 -------------
 1. Strict <b>Model-View-Controller</b> architecture.
 2. Highly Object Oriented and Reusable 
-3. Built Using <b>CodeIgniter 2.1.4</b>
+3. Built Using <b>CodeIgniter 3.0</b>
 4. Two Tier User <b>Input Validations</b> (Client Side Validations using HTML5, Server side validations using codeIgniter)
 5. <b>Secure</b>. Uses encrypted sessions. Stores password as md5 hash. Cross site scripting proof. 
-6. Integration with <b>Twitter Bootstrap 3.0</b>
+6. Integration with <b>Twitter Bootstrap 3.1.1</b>
 
 Usage
 -------------
@@ -20,7 +20,7 @@ To use this code, follow as instructed below.
   and do necessary configurations for your MySQL Database
 4. Now, Create a table called 'user' in MySQL Database, using following Query, Now its done !
   
-CREATE TABLE `your_database`.`new_table` (
+CREATE TABLE `ci_database`.`user` (
   `user_id` INT NOT NULL AUTO_INCREMENT,
   `username` VARCHAR(20) NOT NULL,
   `password` VARCHAR(45) NOT NULL,
