@@ -43,6 +43,21 @@ class User extends CI_Model
             return false;
         }
     }
+
+    public function loginCheckService($loginObj)
+    {
+        $this->db->where('username', $loginObj->username);
+        $this->db->where('password',  md5($loginObj->password));
+        $query = $this->db->get('user');
+        if($query->num_rows()==1)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
     
     /*
      * Description: Insert user Information
