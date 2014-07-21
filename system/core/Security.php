@@ -275,7 +275,7 @@ class CI_Security {
 	 */
 	public function csrf_show_error()
 	{
-		show_error('The action you have requested is not allowed.');
+		show_error('The action you have requested is not allowed.', 403);
 	}
 
 	// --------------------------------------------------------------------
@@ -605,7 +605,7 @@ class CI_Security {
 				{
 					if (($char = array_search($matches[$i].';', $_entities, TRUE)) !== FALSE)
 					{
-						$replace[$matches[$i]] = $character;
+						$replace[$matches[$i]] = $char;
 					}
 				}
 
