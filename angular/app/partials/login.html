@@ -1,0 +1,55 @@
+<br>
+<hr>
+<div class="row">
+    <div class="col-lg-3">
+
+    </div>
+    <div class="col-lg-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Login</h3>
+            </div>
+            <div class="panel-body">
+                <div class="alert" ng-show="flash" ng-bind="flash"></div>
+
+
+                <form action="" method="POST" class="form-horizontal" role="form" ng-submit="login()">
+                    <div class="form-group form-input-element">
+                        <label for="inputEmail" class="col-sm-4 control-label">Email</label>
+
+                        <div class="col-sm-7">
+
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email"
+                                   ng-model="email" required>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <div class="form-group form-input-element">
+
+                        <label for="inputPassword" class="col-sm-4 control-label">Password</label>
+
+                        <div class="col-sm-7">
+
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password"
+                                   ng-model="password" required>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-5 col-sm-3">
+                            <button type="submit" class="btn btn-success"> Login</button>
+                        </div>
+                    </div>
+
+                </form>
+
+
+            </div>
+
+        </div>
+        <div class="col-lg-3">
+
+        </div>
+    </div>

@@ -6,7 +6,7 @@
  * Time: 12:39 AM
  */
 
-require(APPPATH.'/libraries/REST_Controller.php');
+require(APPPATH.'libraries\REST_Controller.php');
 //require('index.php/libraries/REST_Controller.php');
 
 class UserService extends REST_Controller {

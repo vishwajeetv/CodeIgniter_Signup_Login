@@ -1,0 +1,24 @@
+{
+  "name": "angular-seed",
+  "description": "A starter project for AngularJS",
+  "homepage": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "html5-boilerplate": "~4.3.0"
+  },
+  "_release": "238b1a9aaa",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "238b1a9aaa34e6ef98c6aaa0418c24c0c19dd2e3"
+  },
+  "_source": "git://github.com/angular/angular-seed.git",
+  "_target": "*",
+  "_originalSource": "angular-seed",
+  "_direct": true
+}
