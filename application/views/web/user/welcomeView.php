@@ -26,6 +26,8 @@
 <script src="<?=base_url();?>angular/bower_components/angular-route/angular-route.js"></script>
 <script src="<?=base_url();?>angular/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="<?=base_url();?>angular/bower_components/ui-bootstrap/ui-bootstrap-tpls-0.11.0.min.js"></script>
+<script src="<?=base_url();?>angular/bower_components/lodash/dist/lodash.min.js"></script>
+<script src="<?=base_url();?>angular/bower_components/restangular/dist/restangular.min.js"></script>
 <script src="<?=base_url();?>angular/app/js/app.js"></script>
 <script src="<?=base_url();?>angular/app/js/services.js"></script>
 <script src="<?=base_url();?>angular/app/js/controllers.js"></script>
