@@ -1,3 +1,3 @@
-Partipatory Budget Management System
+Codeigniter Signup Login
 ========================
-Participatory Budget Management System built with CodeIgniter 3, AngularJS.
+Built with CodeIgniter 3, AngularJS.
